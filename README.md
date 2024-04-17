@@ -38,7 +38,7 @@ Este repositorio contiene los talleres de la materia Tecnologías emergentes par
 
 * Debe existir mínimo una etiqueta (release).
 
-* Debe tenre un archivo README.md en el directorio raíz con la descripción del proyecto.
+* Debe tener un archivo README.md en el directorio raíz con la descripción del proyecto.
 
 ## Solución
 
