@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    height: 100vh;
+    width: auto;
+}
+
+.align-center{
+    align-self: center;
+}
