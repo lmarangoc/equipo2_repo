@@ -1,13 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --primary-color: #0E79B2;
+    --secondary-color: #BF1363;
+    --tertiary-color: #F39237;
+    --light-color: #FBFEF9;
+    --dark-color: #191923;
+}
+
 body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
     margin: 0;
     padding: 0;
 }
 
 nav{
-    position: fixed;
     top: 0;
+    display: inline-block;
     width: 100%;
-    background-color: aquamarine;
+    background-color: var(--light-color);
+}
+
+.nav-item{
+    color: var(--tertiary-color);
+}
+
+.nav-list{
+    list-style: none;
+    justify-content: end;
+}
+
+.nav-list li{
+    padding: 10px;
+    color: var(--light-color);
+}
+
+#header-text{
+    padding-right: 50px;
+    color: var(--light-color);
+}
+
+#header-card{
+    height: fit-content;
+}
+
+#header-page{
+    justify-content: center;
+    background-color: var(--primary-color);
 }
 
 .flex{
@@ -27,3 +67,39 @@ nav{
 .align-center{
     align-self: center;
 }
+
+.card{
+    border-radius: 10px;
+    background-color: var(--light-color);
+}
+
+.fit-content{
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-us{
+    background-color: var(--tertiary-color);
+}
+
+.profile-picture{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.profiles{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    align-items: center;
+}
+
+.profile{
+    padding: 20px;
+}
+
+
