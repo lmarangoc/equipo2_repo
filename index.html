@@ -10,61 +10,65 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#about-us">Nuestro equipo</a></li>
-                <li><a href="#contact-us">Contactanos</a></li>
+            <ul class="flex nav-list">
+                <li>
+                    <a class="nav-item" href="#about-us">Nuestro equipo</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#contact-us">Contactanos</a>
+                </li>
             </ul>
         </nav>
-       <div>
-            <div>
-                <img src="img/icon.png" alt="Icon">
-                <h1>Git Workshop</h1>
-            </div>
-            <div>
-                <div>
+       <div class="container flex" id="header-page">
+            <div class="flex fit-content" id="header-card">
+                <div class="flex-column align-center" id="header-text">
+                    <h1>Git Workshop</h1>
                     <h2>Equipo 2</h2>
                     <p>Especialización en Ingeniería del Software de la Universidad del Norte.</p>
                 </div>
                 <div>
-                    <img src="img/wallpaper.png" alt="Wallpaper">
+                    <img class="align-center" src="img/icon.png" alt="Icon">
                 </div>
             </div>
        </div>
     </header>
     
-    <section id="about-us">
+    <section id="about-us" class="container">
         <!-- About us -->
-        <h2>Nuestro equipo</h2>
-        <div>
-            <img src="img/Yulieth.jpeg" alt="Imagen Yulieth">
-            <h3>Yulieth Zambrano</h3>
-            <h4>Especialista en análisis de negocio</h4> 
+        <h2 class="about-title">Nuestro equipo</h2>
+        <div class="profiles">
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Yulieth.jpeg" alt="Imagen Yulieth">
+                <h3>Yulieth Zambrano</h3>
+                <h4>Especialista en análisis de negocio</h4> 
+            </div>
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Ricardo.jpeg" alt="Imagen Ricardo">
+                <h3>Ricardo Gómez</h3>
+                <h4>Gestor de relaciones comerciales</h4> 
+            </div>
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Laura.jpeg" alt="Imagen Laura">
+                <h3>Laura Arango</h3>
+                <h4>Desarrolladora de software</h4> 
+            </div>
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Gabriela.jpeg" alt="Imagen Gabriela">
+                <h3>Gabriela Monsalve</h3>
+                <h4>Analista en ingeniería de software</h4> 
+            </div>
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Victor.jpeg" alt="Imagen Victor">
+                <h3>Victor Barbosa</h3>
+                <h4>Ingeniero DevOps</h4> 
+            </div>
+            <div class="flex-column card fit-content profile">
+                <img class="profile-picture" src="img/Ruben.jpeg" alt="Imagen Ruben">
+                <h3>Rubén Camero</h3>
+                <h4>Ingeniero y analista de desarrollo</h4> 
+            </div>
         </div>
-        <div>
-            <img src="img/Ricardo.jpeg" alt="Imagen Ricardo">
-            <h3>Ricardo Gómez</h3>
-            <h4>Gestor de relaciones comerciales</h4> 
-        </div>
-        <div>
-            <img src="img/Laura.jpeg" alt="Imagen Laura">
-            <h3>Laura Arango</h3>
-            <h4>Desarrolladora de software</h4> 
-        </div>
-        <div>
-            <img src="img/Gabriela.jpeg" alt="Imagen Gabriela">
-            <h3>Gabriela Monsalve</h3>
-            <h4>Analista en ingeniería de software</h4> 
-        </div>
-        <div>
-            <img src="img/Victor.jpeg" alt="Imagen Victor">
-            <h3>Victor Barbosa</h3>
-            <h4>Ingeniero DevOps</h4> 
-        </div>
-        <div>
-            <img src="img/Ruben.jpeg" alt="Imagen Ruben">
-            <h3>Rubén Camero</h3>
-            <h4>Ingeniero y analista de desarrollo</h4> 
-        </div>
+       
     </section>
     <section id="contact-us">
         <!-- Contact us -->
