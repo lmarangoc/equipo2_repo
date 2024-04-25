@@ -112,4 +112,99 @@ a {
     color: var(--secondary-color);
 }
 
+#contact-us {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    padding: 50px;
+}
 
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+
+}
+
+.about-title2{
+    font-size: 40pt;
+    color: var(--light-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    padding: 50px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
